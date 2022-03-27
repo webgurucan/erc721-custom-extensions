@@ -185,24 +185,3 @@ contract SharedUpsideToken is ERC721, WithFees {
   }
 }
 ```
-
-### `WithWithdrawals.sol`
-A simple helper that implements a withdrawal function.
-
-Just call `withdraw` as the contract owner.
-
-## Installation
-1. In your project run `npm install @1001-digital/erc721-extensions`
-2. Within your project, import the extensions you want to use like `import "@1001-digital/erc721-extensions/contracts/WithIPFSMetaData.sol";`
-
-## Local Development
-This project uses the [Hardhat](https://hardhat.org/) development environment. To set it up locally, clone this repository and run `npm install`.
-
-Note: You can exchange `npm run` for `hh` if you have `hh` installed globally on your system.
-
-- Run the test suite: `npm run test`
-- Spin up a local development blockchain: `npm run node`
-<!-- - Deploy contract with `npm run deploy:localhost` -->
-
-## Thank You
-If you have any **improvement suggestions**, **feedback** or **bug reports** please feel free add an issue, or reach out via Twitter [@jwahdatehagh](https://twitter.com/jwahdatehagh) or Email [jalil@1001.digital](jalil@1001.digital).
